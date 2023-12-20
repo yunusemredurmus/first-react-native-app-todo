@@ -19,7 +19,7 @@ function SettingsScreen() {
     <SafeAreaView style={styles.safeAreaView}>
       <View style={styles.container}>
         <TouchableOpacity onPress={handleBackHome}>
-          <AntDesign name="setting" size={34} color="black" />
+          <AntDesign name="arrowleft" size={34} color="black" />
         </TouchableOpacity>
         <View style={styles.header}>
           <AntDesign name="profile" size={36} color="white" />
